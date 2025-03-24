@@ -5,38 +5,7 @@
     <head>
         <title>Candada in Geozgadywacz</title>
 
-        <style>
-            table {
-                border: groove;
-                border-color: red;
-                vertical-align: top;
-            }
-            .table-div {
-                width: 350px;
-                display: inline-block;
-            }
-            .plates-img {
-                vertical-align: top;
-                width: 30%;
-            }
-            .img-basics {
-                display: inline-block;
-                width: 300px;
-            }
-            .p-basics {
-                display: inline-block;
-            }
-            .div-basics {
-                display: inline-block;
-                width: 300px;
-                vertical-align: top;
-            }
-            .div-basics-main {
-                overflow: hidden;
-                width: 650px;
-                vertical-align: top;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -178,15 +147,15 @@
             <h4 id="uwagi"> Uwagi</h4>
         </div>
         <div class="form-div">
-            <form>
-                <input type="text" placeholder="Wpisz uwagi">
-                <select>
+            <form class="form-wyslij">
+                <input type="text" placeholder="Wpisz uwagi" class="wyslij">
+                <select class="wyslij">
                     <optgroup label="Przydatna strona?">
                         <option value="Przydatna">Tak</option>
                         <option value="Niezbyt">Nie</option>
                     </optgroup>
                 </select>
-                <button>Wyslij</button>
+                <button class="wyslij">Wyslij</button>
             </form>
         </div>
 
