@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Candada in Geozgadywacz</title>
+
+        <style>
+            table {
+                border: groove;
+                border-color: red;
+                vertical-align: top;
+            }
+            .table-div {
+                width: 350px;
+                display: inline-block;
+            }
+            .plates-img {
+                vertical-align: top;
+                width: 30%;
+            }
+            .img-basics {
+                display: inline-block;
+                width: 300px;
+            }
+            .p-basics {
+                display: inline-block;
+            }
+            .div-basics {
+                display: inline-block;
+                width: 300px;
+                vertical-align: top;
+            }
+            .div-basics-main {
+                overflow: hidden;
+                width: 650px;
+                vertical-align: top;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header><h3> Canada meta clues </h3></header>
+        <div>
+            <h4 id="introduction">I. Introduction </h4>
+            <p>
+                This page presents basic meta clues, knowladge about Canada country located in North America.
+                Here is a list of topics covered in this document.  
+            </p>
+            <details>
+                <summary>Table of Contents</summary>
+                <ol>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#basic-info">Basic Info</a></li>
+                    <li><a href="#plates">Plates</a></li>
+                    <li><a href="#uwagi">Uwagi</a></li>
+                </ol>
+            </details>
+        </div>
+
+        <div>
+            <h4 id="basic-info">II. Basic info </h4>
+            <div class="div-basics-main">
+                <p class="p-basics">
+                    The English-speaking parts of Canada use British English spelling (e.g. centre; colour).
+                    In addition, Canada mostly uses the metric system. For example, speed is measured in kilometres per hour.
+                </p>
+            </div>
+            <div class="div-basics-main">
+                <div class="div-basics">
+                    <p class="p-basics">
+                        Canada uses the word ‘maximum’ on speed signs. Because speed is measured in kilometres instead of miles,
+                        the numbers tend to be higher than the US which can be identifiable from afar.
+                    </p>
+                </div>
+                <img class="img-basics", src="pictures/maximum.png">
+            </div>
+            <div class="div-basics-main">
+                <div class="div-basics">
+                    <p class="p-basics">
+                        Canadian roads usually have single yel  low centre lines.
+                        However, double middle yellow centre lines are still decently common. 
+                    </p>
+                </div>
+                <img class="img-basics", src="pictures/roadlines.png">
+            </div>
+        </div>
+
+        <div>
+            <h4 id="plates">III. Plates </h4>
+            <p> 
+                Registration plates knowladge comes in handy in urban, heavily populated areas.
+                In Canada plates tend to be distinguishable depending on state. Also certain states
+                require both fornt and rear plates whereas certain don't.  
+            </p>
+        </div>
+        <div class="plates-div">
+            <div class="table-div">
+                <table> 
+                    <caption>
+                        Front plate requirements.
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th> State </th>
+                            <th> Obligatory</th>
+                            <th> Optional</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr> 
+                            <th> Alberta </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> British Columbia </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> Manitoba </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> New Brunswick </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> Newfoundland </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> Norhtwest Teritiory </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> Nova Scotia </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> Nunavut </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> Ontario </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> Prince Edward Island </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> Quebec </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                        <tr> 
+                            <th> Yukon </th>
+                            <td> &#9989 </td>
+                            <td> &#10060 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img class="plates-img" src="pictures/plates.jpg">
+        </div>
+
+        <div>
+            <h4 id="uwagi"> Uwagi</h4>
+        </div>
+        <div class="form-div">
+            <form>
+                <input type="text" placeholder="Wpisz uwagi">
+                <select>
+                    <optgroup label="Przydatna strona?">
+                        <option value="Przydatna">Tak</option>
+                        <option value="Niezbyt">Nie</option>
+                    </optgroup>
+                </select>
+                <button>Wyslij</button>
+            </form>
+        </div>
+
+        <progress id="scrollProgress" value="0" max="100"></progress>
+    </body>
+
+</html>
